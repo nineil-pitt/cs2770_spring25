@@ -5,7 +5,7 @@ import pdb
 from scipy import ndimage # conda install scipy==1.9.3
 
 def read_sample_im():
-    im_name = './../module_1_python/pittsburgh.png'
+    im_name = './../supp/module_1_python/pittsburgh.png'
     im = cv2.imread(im_name)  # Read a PNG image
 
     resize_percent = 0.5
